@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header {
+  width: 100%;
+  line-height: 100px;
+  background: linear-gradient(#f07142, #f3a68a);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.9);
+}
+.header h1 {
+  color: black;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin: 0 6px;
+}
+.main_note {
+  width: 550px;
+  /* border: 2px solid green; */
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+form {
+  min-height: 50px;
+  color: rgb(216, 238, 238);
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  position: relative;
+}
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  line-height: 35px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.addBtn {
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 455px;
+  bottom: -19px;
+  cursor: pointer;
+  background-color: #92472c;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.4);
+}
+.addBtn:hover {
+  color: #e1f39f;
+}
+.note {
+  width: 340px;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #f0e4df;
+  padding: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  float: left;
+}
+.note h1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 4px;
+  padding: 2px;
+}
+.note p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.dlt_btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  float: right;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  box-shadow: 3px 3px 18px -3px rgba(0, 0, 0, 0.8);
+}
+.dlt_btn:hover {
+  border: 1px solid rgb(247, 120, 120);
+}
+.dlt_icon:hover {
+  color: red;
+}
